@@ -1,0 +1,21 @@
+{
+  "author": "",
+  "name": "39io",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "./server/app.js"
+  },
+  "main": "./server/app.js",
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "dependencies": {
+    "connect": "2.7.1",
+    "express": "3.1.0",
+    "ejs": "0.8.3",
+    "underscore": "1.4.3",
+    "i18n-2": "0.4.5"
+  }
+}
