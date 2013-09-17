@@ -434,7 +434,34 @@ footer a {
 	width: 170px;
 	color: #f3f6f8;
 	margin: 30px 0;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
+.what-we-do a{
+  color: #2E3137;
+}
+.what-we-do .pricingassistant{
+  background-image: url("pricingassistant_white.png");
+}
+.what-we-do:hover .pricingassistant{
+  background-image: url("pricingassistant_hover.png");
+  background-color: #FFF;
+}
+.what-we-do .sketchfab{
+  background-image: url("sketchfab_white.png");
+}
+.what-we-do:hover .sketchfab{
+  background-color: #1caad9;
+}
+.what-we-do .paymium{
+  font-size: 26px;
+  line-height: 170px;
+  color: #FFF;
+}
+.what-we-do:hover .paymium{
+  background-color: #000;
+}
+
 .what-we-do .full-rounded i {
 	position: relative;
 	top: 56px;
