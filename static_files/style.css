@@ -463,13 +463,17 @@ footer a {
 .what-we-do:hover .sketchfab{
   background-color: #1caad9;
 }
-.what-we-do .paymium{
+.what-we-do .paymium, .what-we-do .you{
   font-size: 26px;
   line-height: 170px;
   color: #FFF;
 }
 .what-we-do:hover .paymium{
   background-color: #000;
+}
+.what-we-do:hover .you{
+  background-color: transparent;
+  color: #000;
 }
 
 .what-we-do .full-rounded i {
