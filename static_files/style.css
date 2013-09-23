@@ -127,6 +127,9 @@ section {
 	padding: 0;
 	background-attachment: fixed;
 }
+.bg1{
+  height: 670px;
+}
 .pattern {
 	background: url('../images/pattern.png') repeat left top;
 }
@@ -446,6 +449,13 @@ footer a {
 .what-we-do:hover .pricingassistant{
   background-image: url("pricingassistant_hover.png");
   background-color: #FFF;
+}
+.what-we-do .dotconferences{
+  background-image: url("dotconferences_white.png");
+}
+.what-we-do:hover .dotconferences{
+  background-image: url("dotconferences_black.png");
+  background-color: #f9df31;
 }
 .what-we-do .sketchfab{
   background-image: url("sketchfab_white.png");
