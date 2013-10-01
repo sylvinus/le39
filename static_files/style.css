@@ -127,9 +127,6 @@ section {
 	padding: 0;
 	background-attachment: fixed;
 }
-.bg1{
-  height: 670px;
-}
 .pattern {
 	background: url('../images/pattern.png') repeat left top;
 }
@@ -157,10 +154,16 @@ section {
    display: table;
    width: 100%;
 }
+.headline img{
+  min-width: 100%;
+}
 .headline {
    display: table-cell;
    text-align: center;
    vertical-align: middle;
+}
+.headline.map{
+  display: block;
 }
 .hidden-element-1,
 .hidden-element-2,
