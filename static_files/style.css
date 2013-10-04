@@ -144,7 +144,7 @@ section {
 }
 .headline p {
 	color: #000;
-	background: rgba(255, 255, 255, .5);
+	background: rgba(255, 255, 255, .7);
 	display: block;
 	margin: 0;
 	padding: 5px 10px;
@@ -789,4 +789,11 @@ input[type="color"],
 	   -moz-box-shadow: none;
 		-ms-box-shadow: none;
 			box-shadow: none;
+}
+
+.map h2 {
+	position:absolute;
+	text-align:right;
+	top:20px;
+	right:20px;
 }

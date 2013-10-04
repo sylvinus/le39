@@ -2,22 +2,22 @@
 @media (min-width: 1200px) {
 
 }
- 
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 	body {
 		padding: 50px 0 0;
 	}
-	div { 
-		width:auto;  
-		overflow:hidden; 
+	div {
+		width:auto;
+		overflow:hidden;
 	}
 	.controls,
 	.control-group {
 		overflow: visible;
 	}
-	.navbar-fixed-top, 
-	.navbar-fixed-bottom, 
+	.navbar-fixed-top,
+	.navbar-fixed-bottom,
 	.navbar-static-top {
 		margin-left: 0;
 		margin-right: 0;
@@ -51,11 +51,11 @@
 	.navbar .btn-navbar .icon-bar {
 		background-color: #000;
 	}
-	.navbar-fixed-top .navbar-inner, 
+	.navbar-fixed-top .navbar-inner,
 	.navbar-fixed-bottom .navbar-inner {
 		padding: 0;
 	}
-	.nav-collapse .nav > li > a, 
+	.nav-collapse .nav > li > a,
 	.nav-collapse .dropdown-menu a {
 		-webkit-border-radius: 0;
 		   -moz-border-radius: 0;
@@ -65,11 +65,11 @@
 		display: none !important;
 	}
 	.icon-3x {
-		font-size: 2em;	
+		font-size: 2em;
 	}
 	.icon-4x,
 	.icon-5x {
-		font-size: 3em;	
+		font-size: 3em;
 	}
 	.service-wrapper .full-rounded {
 		width: 160px;
@@ -79,10 +79,12 @@
 		top: 57px;
 	}
 	.logo .brand {
-		width: 65px;
+		width: 165px;
 		height: 24px;
 		background-size: 65px 24px;
 		margin-left: 10px;
+		font-size:30px;
+		padding-top:0px;
 	}
 	.bg1,
 	.bg2,
@@ -90,18 +92,28 @@
 	.bg4,
 	.bg5 {
 		background-attachment: scroll;
+		height:300px;
+	}
+
+	.map h2 {
+		font-size:20px;
+		line-height:30px;
+	}
+
+	.flexslider h2 {
+		font-size:20px;
 	}
 }
 
- 
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 	body {
 		padding: 50px 0 0;
 	}
-	div { 
-		width:auto;  
-		overflow:hidden; 
+	div {
+		width:auto;
+		overflow:hidden;
 	}
 	.controls {
 		overflow: visible;
@@ -109,8 +121,8 @@
 	.wrapper {
 		padding: 30px 10px;
 	}
-	.navbar-fixed-top, 
-	.navbar-fixed-bottom, 
+	.navbar-fixed-top,
+	.navbar-fixed-bottom,
 	.navbar-static-top {
 		margin-left: 0;
 		margin-right: 0;
@@ -144,11 +156,11 @@
 	.navbar .btn-navbar .icon-bar {
 		background-color: #000;
 	}
-	.navbar-fixed-top .navbar-inner, 
+	.navbar-fixed-top .navbar-inner,
 	.navbar-fixed-bottom .navbar-inner {
 		padding: 0;
 	}
-	.nav-collapse .nav > li > a, 
+	.nav-collapse .nav > li > a,
 	.nav-collapse .dropdown-menu a {
 		-webkit-border-radius: 0;
 		   -moz-border-radius: 0;
@@ -163,12 +175,12 @@
 	.contact-form button {
 		margin: 0;
 	}
-	.input-large, 
-	.input-xlarge, 
-	.input-xxlarge, 
-	input[class*="span"], 
-	select[class*="span"], 
-	textarea[class*="span"], 
+	.input-large,
+	.input-xlarge,
+	.input-xxlarge,
+	input[class*="span"],
+	select[class*="span"],
+	textarea[class*="span"],
 	.uneditable-input {
 		min-height: 50px;
 	}
@@ -182,15 +194,17 @@
 	.comment-form {
 		padding: 30px 10px;
 	}
-	.input-append .add-on, 
+	.input-append .add-on,
 	.input-prepend .add-on {
 		padding: 14px;
 	}
 	.logo .brand {
-		width: 65px;
+		width: 165px;
 		height: 24px;
 		background-size: 65px 24px;
 		margin-left: 10px;
+		font-size:30px;
+		padding-top:0px;
 	}
 	.bg1,
 	.bg2,
@@ -198,22 +212,31 @@
 	.bg4,
 	.bg5 {
 		background-attachment: scroll;
+		height:300px;
+	}
+	.map h2 {
+		font-size:20px;
+		line-height:30px;
+	}
+
+	.flexslider h2 {
+		font-size:20px;
 	}
 }
- 
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	body {
 		padding: 50px 0 0;
 	}
-	div { 
-		width:auto;  
-		overflow:hidden; 
+	div {
+		width:auto;
+		overflow:hidden;
 	}
 	.controls {
 		overflow: visible;
 	}
-	.navbar-fixed-top, 
+	.navbar-fixed-top,
 	.navbar-fixed-bottom {
 		position: fixed;
 	}
@@ -229,8 +252,8 @@
 	.focus .pricing-price {
 		padding: 40px 0;
 	}
-	.navbar-fixed-top, 
-	.navbar-fixed-bottom, 
+	.navbar-fixed-top,
+	.navbar-fixed-bottom,
 	.navbar-static-top {
 		margin-left: 0;
 		margin-right: 0;
@@ -263,11 +286,11 @@
 	.navbar .btn-navbar .icon-bar {
 		background-color: #000;
 	}
-	.navbar-fixed-top .navbar-inner, 
+	.navbar-fixed-top .navbar-inner,
 	.navbar-fixed-bottom .navbar-inner {
 		padding: 0;
 	}
-	.nav-collapse .nav > li > a, 
+	.nav-collapse .nav > li > a,
 	.nav-collapse .dropdown-menu a {
 		-webkit-border-radius: 0;
 		   -moz-border-radius: 0;
@@ -282,6 +305,8 @@
 		height: 24px;
 		background-size: 65px 24px;
 		margin-left: 10px;
+		font-size:30px;
+		padding-top:0px;
 	}
 	.client-logo {
 		width: 50%;
