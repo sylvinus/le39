@@ -215,12 +215,12 @@
 		height:300px;
 	}
 	.map h2 {
-		font-size:20px;
+		font-size:15px;
 		line-height:30px;
 	}
 
 	.flexslider h2 {
-		font-size:20px;
+		font-size:15px;
 	}
 }
 
@@ -305,7 +305,7 @@
 		height: 24px;
 		background-size: 65px 24px;
 		margin-left: 10px;
-		font-size:30px;
+		font-size:25px;
 		padding-top:0px;
 	}
 	.client-logo {
