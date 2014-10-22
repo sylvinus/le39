@@ -466,6 +466,14 @@ footer a {
 .what-we-do:hover .sketchfab{
   background-color: #1caad9;
 }
+
+.what-we-do .stripe{
+  background-image: url("stripe_white.png");
+}
+.what-we-do:hover .stripe{
+  background-color: #3da8e5;
+}
+
 .what-we-do .paymium, .what-we-do .you{
   font-size: 26px;
   line-height: 170px;
