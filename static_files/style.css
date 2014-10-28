@@ -474,6 +474,13 @@ footer a {
   background-color: #3da8e5;
 }
 
+.what-we-do .bannerman{
+  background-image: url("bannerman_white.png");
+}
+.what-we-do:hover .bannerman{
+  background-color: #414143;
+}
+
 .what-we-do .jansensan{
   background-image: url("jansensan_white.png");
 }
