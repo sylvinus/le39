@@ -497,6 +497,14 @@ footer a {
 .what-we-do:hover .paymium{
   background-color: #000;
 }
+
+.what-we-do .placemeter{
+  background-image: url("placemeter_white.png");
+}
+.what-we-do:hover .placemeter{
+  background-color: #95d267;
+}
+
 .what-we-do:hover .you{
   background-color: transparent;
   color: #000;
