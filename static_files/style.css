@@ -505,6 +505,15 @@ footer a {
   background-color: #95d267;
 }
 
+.what-we-do .rudebaguette{
+  background-image: url("rudebaguette_white.png");
+}
+.what-we-do:hover .rudebaguette{
+  background-color: #ffffff;
+   background-image: url("rudebaguette_hover.png");
+
+}
+
 .what-we-do:hover .you{
   background-color: transparent;
   color: #000;
